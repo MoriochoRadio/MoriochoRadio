@@ -6,83 +6,76 @@
 <h1 align="center">안녕하세요, 김태경입니다 👋</h1>
 
 <p align="center">
-  <b>의료IT를 중심에 두고, 생성형 AI를 '매일 쓰는 도구'로 다루는 개발자 지망생</b><br/>
-  <sub>아이디어를 며칠 안에 <b>배포된 실제 제품</b>으로 만들고, AI·자동화로 굴러가게 합니다.</sub>
+  <b>병원정보시스템(HIS)·의료IT를 진로로 두고, AI를 도구로 다뤄 문제를 푸는 개발자 지망생</b><br/>
+  <sub>의료 현장의 문제를 앱·IoT·의료영상 AI로 풀어왔고, 곁가지로 1인 프로젝트도 꾸준히 배포합니다.</sub>
 </p>
 
 <p align="center">
   <a href="https://github.com/MoriochoRadio?tab=repositories"><img src="https://img.shields.io/badge/Repos-24-2b3137?style=flat-square&logo=github&logoColor=white"></a>
-  <img src="https://img.shields.io/badge/도메인-의료IT·의료영상_AI-0a7d6b?style=flat-square">
-  <img src="https://img.shields.io/badge/강점-LLM_활용·자동화_배포-7c3aed?style=flat-square">
+  <img src="https://img.shields.io/badge/주_진로-병원정보시스템·의료IT-0a7d6b?style=flat-square">
+  <img src="https://img.shields.io/badge/강점-의료영상_AI·LLM_활용·배포-7c3aed?style=flat-square">
   <img src="https://komarev.com/ghpvc/?username=MoriochoRadio&style=flat-square&color=blue&label=Profile+views">
 </p>
 
 ---
 
-건양대학교 **의료IT공학과** 에서 의료와 기술이 만나는 지점을 공부하고 있습니다.
-환자 대기 시간, 어린이 안전, 독거노인 모니터링, 폐·간 CT 결절 탐지까지 — *"의료진뿐 아니라 사람(환자) 본인을 위한 도구"* 를 만드는 데 관심이 있습니다.
+건양대학교 **의료IT공학과** 재학 중이며, 졸업 후 **병원·병원정보시스템(HIS)의 개발·유지보수·관리, 의료IT** 분야에서 일하는 것을 목표로 합니다.
+환자 대기 시간, 어린이 안전, 독거노인 모니터링, CT 결절 탐지, 정자 형태·운동성 분석까지 — *"의료진뿐 아니라 사람(환자) 본인을 위한 도구"* 를 4년간 학교 팀 프로젝트로 하나씩 만들어 왔습니다.
 
-그 관심을 푸는 방식으로 **생성형 AI(Claude·Gemini)와 자동화 파이프라인**을 일상적으로 사용합니다.
-최근 한 달 동안 데이터 수집 → LLM 분석 → 정적 사이트 빌드 → 자동 배포까지 **서버·비용 0원으로 매일 스스로 돌아가는 제품**을 여러 개 만들어 공개했습니다.
+문제를 푸는 방식으로 **AI(딥러닝·생성형 AI)를 일상적인 도구**로 사용하며, 학교 프로젝트 밖에서도 **혼자서 여러 분야의 제품을 만들어 배포**해 왔습니다.
 
 ```
-🏥 주 진로     의료IT · 병원정보시스템(HIS) · 의료영상 AI
-🧠 핵심 역량   LLM(Claude/Gemini) 오케스트레이션 · GitHub Actions 자동화 · 웹 배포
-🧱 기반        소프트웨어공학(C/C++/Java/C#) · 데이터 파이프라인 · 데스크탑/모바일 앱
+🏥 주 진로     병원 · 병원정보시스템(HIS) · 의료IT 개발/유지보수/관리
+🔬 핵심 경험   의료영상·의료 AI 시스템 (객체탐지·추적·3D 영상, 팀 캡스톤)
+🧠 도구로서의 AI   딥러닝(YOLO/PyTorch) · LLM(Claude/Gemini) · 자동화 배포
+🧱 기반        소프트웨어공학(C/C++/Java/C#) · 앱/데스크탑/웹 · 데이터 파이프라인
 ```
 
 ---
 
-## 🚀 대표 작업 — "AI를 도구로 굴린다"의 증거
+## 🏥 의료IT 진로 라인 — 케어 앱에서 의료 AI 시스템까지 (시간순)
 
-> 모두 **라이브로 동작하는** 프로젝트입니다. 데이터 수집·LLM 분석·배포가 사람 손 없이 매일 자동으로 돌아갑니다.
-
-| 프로젝트 | 한 줄 소개 | 핵심 스택 | 링크 |
-|---|---|---|---|
-| 📈 **[stock-briefing](https://github.com/MoriochoRadio/stock-briefing)** | 매일 아침 7시 미·한 증시 맞춤 브리핑을 **AI가 작성**해 대시보드로 자동 배포. 서버·비용 0원 | GitHub Actions · **Gemini API** · Astro 5 · Tailwind · yfinance | [▶ 데모](https://moriochoradio.github.io/stock-briefing/) |
-| 🎯 **[tarkov-companion](https://github.com/MoriochoRadio/tarkov-companion)** | 실시간 시세·가성비 분석 + **매일 AI 자동 작성 일일 브리핑**을 더한 게임 컴패니언 웹 | TypeScript · GitHub Actions · LLM · GitHub Pages | [▶ 데모](https://moriochoradio.github.io/tarkov-companion/) |
-| 🧬 **[evolution-garden](https://github.com/MoriochoRadio/evolution-garden)** | 137개 가중치의 신경망 뇌가 **돌연변이·자연선택만으로 종 분화**하는 인공생명 시뮬레이터 (단일 HTML, 무의존성) | Vanilla JS · Canvas 2D · 신경망 직접 구현 | [▶ 데모](https://moriochoradio.github.io/evolution-garden/) |
-| 📊 **[fundamental-regime-report](https://github.com/MoriochoRadio/fundamental-regime-report)** | KOSPI200 321개 기업(상폐 포함)의 펀더멘털 + 시장 국면을 **ML + LLM**으로 통합 분석 | Python · ML · **Claude** · Streamlit | [코드](https://github.com/MoriochoRadio/fundamental-regime-report) |
-| 📰 **[ai-daily-trends](https://github.com/MoriochoRadio/ai-daily-trends)** | GitHub Trending·HN·Reddit·SNS의 **AI 트렌드를 매일 자동 수집·정리**하는 정적 사이트 | Python · 자동 수집 파이프라인 · GitHub Actions | [▶ 데모](https://moriochoradio.github.io/ai-daily-trends/) |
-| 🛠️ **[tarkov-korean-changes](https://github.com/MoriochoRadio/tarkov-korean-changes)** | 게임 변경사항을 **매일 한글로 자동 번역·해석**하고 안정성까지 자동 판정하는 정적 웹 | Python · LLM 번역 · 규칙 기반 판정 | [▶ 데모](https://moriochoradio.github.io/tarkov-korean-changes/) |
-
-<sub>👉 이 프로젝트들이 공통으로 보여주는 것: <b>LLM API 오케스트레이션 · GitHub Actions(cron) 자동화 · 데이터 수집/가공 · 무료 풀스택 배포(Astro/Tailwind/GitHub Pages)</b> — 즉, AI를 한 번 써보는 수준이 아니라 <b>운영 가능한 제품으로 엮어내는</b> 능력.</sub>
-
----
-
-## 🔬 의료영상 AI 라인 — 한 시스템을 두 학기, 두 역할로
-
-가장 깊게 파고든 흐름은 **CT 결절 탐지 AI** 입니다. 같은 팀(**T.O.P**)에서 한 시스템을 두 학기에 걸쳐 발전시켰고, 그 과정에서 서로 다른 역할을 맡아 봤습니다.
-
-```
-        2025-1  LungCT3DNoduleAI          2025-2  AILungandLiver (L-POT)
-        ────────────────────────         ──────────────────────────────
-도메인   폐 CT 결절                  →     폐 + 간 CT 결절  (다중 부위 확장)
-모델     3D Voxel CNN (4-branch)     →     SpiralNet+PointNet+Transformer+MeshCNN
-정확도   78%                         →     93%  (+15%p)
-인프라   Jupyter/Colab + Streamlit   →     PyQt6 데스크탑 앱 + exe 배포
-내 역할  PM (일정·진척도·전처리)      →     QA (품질·위험·시험)
-```
-
-- **PM 으로** 6명 팀의 일정·산출물을 책임지며 *"AI 모델 지식 부족"* 같은 어려움을 직접 겪었고,
-- 다음 학기 **QA 로** 그 경험을 위험 관리 계획서의 *"치명적 위험"* 으로 박아 넣었습니다.
-- *안 해본 역할을 일부러 골라* 한 시스템을 다른 관점에서 바라보는 경험을 쌓았습니다.
-
-지금은 마지막 학기 캡스톤 **[seed-project](https://github.com/MoriochoRadio/seed-project)** ·**[sperm-ai](https://github.com/MoriochoRadio/sperm-ai)** (AI 정자 운동성 분석)으로 의료영상 AI 경험을 이어가고 있습니다. → [▶ seed-project 데모](https://moriochoradio.github.io/seed-project/)
-
----
-
-## 🩺 학부 프로젝트 타임라인 — 헬스케어·케어 도메인
-
-앱·IoT 에서 시작해 의료영상 AI 로 이어지는 흐름입니다.
+진로와 직결되는 **학교 팀 프로젝트** 흐름입니다. 병원 대기·돌봄 앱에서 출발해 → 의료영상 AI → **완성형 의료 AI 시스템**으로 단계적으로 성장했습니다.
 
 | 시기 | 프로젝트 | 도메인 | 본인 역할 |
 |---|---|---|---|
-| 2024-1 | [MedQueue](https://github.com/MoriochoRadio/MedQueue) | 병원 실시간 대기 정보 | 시스템 설계 |
-| 2024-2 | [SchoolbusRFID](https://github.com/MoriochoRadio/SchoolbusRFID) | 위치 기반 어린이 하차 안전 | Android·RFID |
+| 2024-1 | [MedQueue](https://github.com/MoriochoRadio/MedQueue) | **병원 실시간 대기 정보** (HIS 성격) | 시스템 설계 |
+| 2024-2 | [SchoolbusRFID](https://github.com/MoriochoRadio/SchoolbusRFID) | 위치 기반 어린이 하차 안전 | Android · RFID |
 | 2024-2 | [ElderCaringApp](https://github.com/MoriochoRadio/ElderCaringApp) | 독거노인 건강 모니터링 | 로드셀 HW + 통계 SW |
-| **2025-1** | [LungCT3DNoduleAI](https://github.com/MoriochoRadio/LungCT3DNoduleAI) | 폐 CT 결절 탐지 (78%) | **PM** |
-| **2025-2** | [AILungandLiver](https://github.com/MoriochoRadio/AILungandLiver) | 폐+간 CT 결절 탐지 (93%) | **QA** |
+| 2025-1 | [LungCT3DNoduleAI](https://github.com/MoriochoRadio/LungCT3DNoduleAI) | 폐 CT 결절 탐지 (78%) | PM |
+| 2025-2 | [AILungandLiver](https://github.com/MoriochoRadio/AILungandLiver) | 폐+간 CT 결절 탐지 (93%) | QA |
+| **2026-1** | **[🌱 SEED](https://github.com/MoriochoRadio/seed-project)** | **AI 정자 탐지·형태·운동성 통합 분석** | **ENG1 (시스템 설계·통합·성능)** |
+
+<sub>성장 메모: 2025년 의료영상 AI 라인(LungCT → AILungandLiver)에서는 같은 팀으로 한 시스템을 두 학기에 걸쳐 발전시키며 **PM → QA** 로 역할을 바꿔, 만드는 쪽과 검증하는 쪽을 모두 경험했습니다. (정확도 78% → 93%)</sub>
+
+### 🌱 대표작 — SEED · AI 기반 정자 자동 탐지 및 형태·운동성 통합 분석 시스템
+
+> **개인적으로 가장 완성도 높다고 생각하는 졸업 캡스톤.** 2026-1 융합캡스톤디자인 I 최종발표 완료 (`Ver 1.0.0`).
+
+- **무엇** — 현미경 영상 속 정자를 AI가 **자동 검출·추적**하고, **형태·운동성(키네마틱 지표)을 정량 평가**하는 시스템 (WHO 기준 참고)
+- **내 역할 (ENG1)** — 시스템 구조 설계·제작, 모듈 **통합 관리**, **성능 개선**, 그리고 **형태 분석 모델 구현**
+- **기술** — `Python` · `PyTorch` · `YOLO11(Ultralytics)` · `ByteTrack(추적)` · `Flask` / 폭포수(Waterfall) 방법론으로 단계별 산출물·검증
+- **팀** — Team **T.O.P** (PM·CM·QA·ENG1·ENG2 5인 분산형 구성) · 지도교수 송기원
+- 📂 발표 슬라이드 흐름을 그대로 옮긴 상세 README · 산출물 · Quick Start 포함 → **[저장소 보기](https://github.com/MoriochoRadio/seed-project)**
+
+<sub>※ 각 학교 프로젝트 README에는 팀 구성·역할·아키텍처·산출물과 함께, 내가 한 부분/못한 부분을 정직하게 적어 두었습니다.</sub>
+
+---
+
+## 🚀 1인 사이드 프로젝트 — 다른 분야도 혼자, 끝까지 배포
+
+학교 밖에서도 **혼자서** 여러 분야를 직접 시도하고, **AI·자동화를 엮어 실제로 동작하는 제품**까지 배포해 왔습니다. 아래는 모두 **라이브로 동작**하며, 데이터 수집·LLM 분석·배포가 사람 손 없이 매일 자동으로 돌아갑니다.
+
+| 프로젝트 | 분야 | 한 줄 소개 | 핵심 스택 | 링크 |
+|---|---|---|---|---|
+| 📈 **[stock-briefing](https://github.com/MoriochoRadio/stock-briefing)** | 금융·자동화 | 매일 아침 미·한 증시 브리핑을 **AI가 작성**해 대시보드로 자동 배포 (서버·비용 0원) | GitHub Actions · Gemini · Astro · Tailwind | [▶ 데모](https://moriochoradio.github.io/stock-briefing/) |
+| 📊 **[fundamental-regime-report](https://github.com/MoriochoRadio/fundamental-regime-report)** | 금융·ML | KOSPI200 321개 기업(상폐 포함) 펀더멘털 + 시장 국면을 **ML + LLM**으로 통합 분석 | Python · ML · Claude · Streamlit | [코드](https://github.com/MoriochoRadio/fundamental-regime-report) |
+| 🧬 **[evolution-garden](https://github.com/MoriochoRadio/evolution-garden)** | 시뮬레이션 | 137개 가중치 신경망 뇌가 **돌연변이·자연선택만으로 종 분화**하는 인공생명 (단일 HTML, 무의존성) | Vanilla JS · Canvas · 신경망 직접 구현 | [▶ 데모](https://moriochoradio.github.io/evolution-garden/) |
+| 🎯 **[tarkov-companion](https://github.com/MoriochoRadio/tarkov-companion)** | 웹앱 | 실시간 시세·가성비 분석 + **매일 AI 자동 작성 브리핑** 게임 컴패니언 웹 | TypeScript · GitHub Actions · LLM | [▶ 데모](https://moriochoradio.github.io/tarkov-companion/) |
+| 📰 **[ai-daily-trends](https://github.com/MoriochoRadio/ai-daily-trends)** | 데이터·자동화 | GitHub Trending·HN·Reddit·SNS의 **AI 트렌드를 매일 자동 수집·정리** | Python · 수집 파이프라인 · Actions | [▶ 데모](https://moriochoradio.github.io/ai-daily-trends/) |
+| 🛠️ **[tarkov-korean-changes](https://github.com/MoriochoRadio/tarkov-korean-changes)** | 자동화 | 변경사항을 **매일 한글로 자동 번역·해석**하고 안정성까지 자동 판정 | Python · LLM 번역 · 규칙 판정 | [▶ 데모](https://moriochoradio.github.io/tarkov-korean-changes/) |
+
+<sub>👉 분야는 달라도 공통으로 보여주는 것: <b>혼자 기획→구현→배포까지 끝내는 실행력</b>, 그리고 <b>AI를 한 번 써보는 수준이 아니라 운영되는 제품으로 엮어내는</b> 능력.</sub>
 
 ---
 
@@ -98,22 +91,23 @@
 ![Java](https://img.shields.io/badge/Java-007396?style=flat-square&logo=openjdk&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=csharp&logoColor=white)
 
-**AI · 자동화**
+**의료·AI**
 
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![YOLO](https://img.shields.io/badge/YOLO11-00FFFF?style=flat-square&logo=ultralytics&logoColor=black)
 ![Claude](https://img.shields.io/badge/Claude_API-D97757?style=flat-square&logo=anthropic&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Gemini_API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 
-**웹 · 앱 · 데이터**
+**웹 · 앱 · 인프라**
 
 ![Astro](https://img.shields.io/badge/Astro-BC52EE?style=flat-square&logo=astro&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 ![PyQt](https://img.shields.io/badge/PyQt6-41CD52?style=flat-square&logo=qt&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-222222?style=flat-square&logo=githubpages&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
 ---
 
