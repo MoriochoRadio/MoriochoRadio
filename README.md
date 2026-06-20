@@ -39,7 +39,7 @@
 
 | 시기 | 프로젝트 | 도메인 | 본인 역할 |
 |---|---|---|---|
-| 2024-1 | [MedQueue](https://github.com/MoriochoRadio/MedQueue) | **병원 실시간 대기 정보** (HIS 성격) | 시스템 설계 |
+| 2024-1 | [MedQueue](https://github.com/MoriochoRadio/MedQueue) | **병원 실시간 대기 정보**  | 시스템 설계 |
 | 2024-2 | [SchoolbusRFID](https://github.com/MoriochoRadio/SchoolbusRFID) | 위치 기반 어린이 하차 안전 | Android · RFID |
 | 2024-2 | [ElderCaringApp](https://github.com/MoriochoRadio/ElderCaringApp) | 독거노인 건강 모니터링 | 로드셀 HW + 통계 SW |
 | 2025-1 | [LungCT3DNoduleAI](https://github.com/MoriochoRadio/LungCT3DNoduleAI) | 폐 CT 결절 탐지 (78%) | PM |
