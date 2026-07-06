@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/MoriochoRadio?tab=repositories"><img src="https://img.shields.io/badge/Repos-24-2b3137?style=flat-square&logo=github&logoColor=white"></a>
+  <a href="https://github.com/MoriochoRadio?tab=repositories"><img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FMoriochoRadio&query=%24.public_repos&label=Repos&color=2b3137&style=flat-square&logo=github&logoColor=white"></a>
   <img src="https://img.shields.io/badge/주_진로-병원정보시스템·의료IT-0a7d6b?style=flat-square">
   <img src="https://img.shields.io/badge/강점-의료영상_AI·LLM_활용·배포-7c3aed?style=flat-square">
   <img src="https://komarev.com/ghpvc/?username=MoriochoRadio&style=flat-square&color=blue&label=Profile+views">
