@@ -76,6 +76,15 @@
 
 ---
 
+## 공모전·챌린지
+
+| 시기 | 대회 | 한 일 | 결과/상태 |
+|---|---|---|---|
+| 2026-06 | 멀티모달 AI Bias 챌린지 (DACON) — [multimodal-bias-vqa](https://github.com/MoriochoRadio/multimodal-bias-vqa) | 오프라인 Qwen2.5-VL(4-bit) + 균형 CoT 프롬프트로 "근거가 부족하면 모름"을 판별하는 VQA. 공개 BBQ로 600샘플 자체 검증셋을 만들어 실험 10회를 로그로 남기며 개선 | Public **Balanced Accuracy 0.883** |
+| 2026-07 | 제4회 JUMP AI 신약개발 경진대회 — [jump-ai-clinical-agent](https://github.com/MoriochoRadio/jump-ai-clinical-agent) | 임상시험 프로토콜 사전검토(pre-review) 에이전트 제안 + 재현 가능한 CLI 프로토타입. 공개·합성 데이터만 사용, 안전 경계 명시 | 제안서 제출 (2026-07-08) |
+
+---
+
 ## 학교 팀 프로젝트 이력
 
 병원 대기·돌봄 앱에서 출발해 의료영상 AI를 거쳐 완성형 의료 AI 시스템까지, 4년에 걸쳐 단계적으로 범위를 넓혀왔습니다.
@@ -106,8 +115,24 @@
 | [ai-daily-trends](https://github.com/MoriochoRadio/ai-daily-trends) · [데모](https://moriochoradio.github.io/ai-daily-trends/) | 데이터 | GitHub Trending·HN·Reddit의 AI 트렌드 매일 자동 수집·정리 | Python · 수집 파이프라인 |
 | [tarkov-companion](https://github.com/MoriochoRadio/tarkov-companion) · [데모](https://moriochoradio.github.io/tarkov-companion/) | 웹앱 | 실시간 시세·가성비 분석 + 매일 자동 브리핑 | TypeScript · Actions · LLM |
 | [sauna-science-hub](https://github.com/MoriochoRadio/sauna-science-hub) | 헬스케어 | PubMed 논문 90편 자동 수집 + 한글 번역 아카이브 | Python · PubMed API |
+| [tarkov-korean-changes](https://github.com/MoriochoRadio/tarkov-korean-changes) | 데이터 | 게임 코드의 사일런트 변경을 매일 자동 수집·한글 해석, 반복 이벤트 안정성 자동 판정 | Python · Actions · LLM |
+| [fundamental-regime-report](https://github.com/MoriochoRadio/fundamental-regime-report) | 금융 | 기업 펀더멘털 + 시장 국면(regime) 인지형 통합 분석 리포트 | Python · Claude API |
+| [weather-fit](https://github.com/MoriochoRadio/weather-fit) | 웹앱 | 날씨 기반 남성 코디 추천 — 기온대별 75벌, 서버·API 키 없는 정적 PWA | TypeScript · PWA |
+| [mindlings](https://github.com/MoriochoRadio/mindlings) | 시뮬레이션 | NEAT 신경망 생명체를 관찰·간섭하는 신 시점 인공생명 샌드박스 | Godot 4 · GDScript |
 | [evolution-garden](https://github.com/MoriochoRadio/evolution-garden) · [데모](https://moriochoradio.github.io/evolution-garden/) | 시뮬레이션 | 137개 가중치 신경망이 돌연변이·자연선택만으로 종 분화하는 인공생명. 라이브러리 없이 단일 HTML | Vanilla JS · Canvas |
 | [web-study-notes](https://github.com/MoriochoRadio/web-study-notes) · [데모](https://moriochoradio.github.io/web-study-notes/) | 학습 | 프론트엔드 수업 실습 아카이브 + 진도 대시보드 | HTML · CSS · JS |
+
+---
+
+## 학습 아카이브
+
+수업·독학 과정을 그대로 보존한 저장소들입니다. 완성도보다 **학습 궤적**을 보여주는 기록입니다.
+
+[study-algorithms](https://github.com/MoriochoRadio/study-algorithms) (알고리즘 C++/C#) ·
+[study-java](https://github.com/MoriochoRadio/study-java) (Java 기초→GUI) ·
+[study-windows-programming](https://github.com/MoriochoRadio/study-windows-programming) (WinForms/WPF 34챕터) ·
+[web-study-notes](https://github.com/MoriochoRadio/web-study-notes) (취업아카데미 프론트/백엔드) ·
+[study-web-basics](https://github.com/MoriochoRadio/study-web-basics) · [study-web-funsun](https://github.com/MoriochoRadio/study-web-funsun) (2020, 첫 웹)
 
 ---
 
