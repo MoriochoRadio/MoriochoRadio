@@ -40,7 +40,7 @@
 현미경 영상 하나로 운동성·키네마틱·형태를 통합 분석하고 WHO 6판 기준 보고서를 출력하는 Flask 웹 시스템입니다. 기획부터 모델·웹까지 전 과정을 혼자 개발했습니다.
 
 - **파이프라인** — YOLO11(검출) → ByteTrack(추적) → 앙상블 회귀(운동성) → EfficientNet-B3(형태 분류) → 설명형 해석
-- **성과** — 동일 데이터셋(VISEM)에서 운동성 MAE **6.9%p**로 기존 논문 최고 기록(motilitAI, 7.31%p)을 상회. YOLO11 mAP@0.5 = 0.677
+- **성과** — 동일 데이터셋(VISEM)에서 운동성 MAE **6.9%p**로 기존 논문 최고 기록(motilitAI, 7.31%p)보다 오차를 낮춰 경신. YOLO11 mAP@0.5 = 0.677
 - **의의** — 전용 CASA 장비 없이 일반 현미경 영상과 브라우저만으로 접근 가능한 보조 분석 도구
 
 <br/>
@@ -87,7 +87,7 @@
 
 ## 학교 팀 프로젝트 이력
 
-병원 대기·돌봄 앱에서 출발해 의료영상 AI를 거쳐 완성형 의료 AI 시스템까지, 4년에 걸쳐 단계적으로 범위를 넓혀왔습니다.
+병원 대기·돌봄 앱에서 출발해 의료영상 AI를 거쳐 완성형 의료 AI 시스템까지, 3년 다섯 학기에 걸쳐 단계적으로 범위를 넓혀왔습니다.
 
 | 시기 | 프로젝트 | 도메인 | 담당 역할 |
 |---|---|---|---|
@@ -105,22 +105,21 @@
 
 ## 개인 프로젝트 — AI 활용 역량을 키우기 위한 실험
 
-아래는 **LLM과 AI 에이전트를 실제 제품에 엮어내는 역량**을 기르려고 만든 것들입니다.
-공통 구조는 `데이터 수집 → LLM 분석 → 정적 사이트 자동 배포`이며, GitHub Actions 위에 올려 서버·운영비 없이 매일 자동으로 갱신되도록 만들었습니다.
-같은 구조를 도메인만 바꿔 반복 적용하면서, 어디까지 자동화가 버티고 어디서 사람이 필요한지를 확인했습니다.
+아래는 **LLM·자동화·웹을 실제 돌아가는 제품으로 엮어내는 역량**을 기르려고 만든 것들입니다.
+축이 되는 공통 구조는 `데이터 수집 → LLM 분석 → 정적 사이트 자동 배포`이며, GitHub Actions 위에 올려 서버·운영비 없이 매일 자동으로 갱신되도록 만들었습니다.
+같은 구조를 금융·게임·헬스케어로 도메인만 바꿔 반복 적용하면서 어디까지 자동화가 버티고 어디서 사람이 필요한지를 확인했고, 서버 없는 PWA·인공생명 시뮬레이션 같은 실험도 함께 담았습니다.
 
 | 프로젝트 | 분야 | 내용 | 스택 |
 |---|---|---|---|
 | [stock-briefing](https://github.com/MoriochoRadio/stock-briefing) · [데모](https://moriochoradio.github.io/stock-briefing/) | 금융 | 매일 아침 미·한 증시 브리핑을 자동 생성해 대시보드로 배포 | Actions · Gemini · Astro |
 | [ai-daily-trends](https://github.com/MoriochoRadio/ai-daily-trends) · [데모](https://moriochoradio.github.io/ai-daily-trends/) | 데이터 | GitHub Trending·HN·Reddit의 AI 트렌드 매일 자동 수집·정리 | Python · 수집 파이프라인 |
 | [tarkov-companion](https://github.com/MoriochoRadio/tarkov-companion) · [데모](https://moriochoradio.github.io/tarkov-companion/) | 웹앱 | 실시간 시세·가성비 분석 + 매일 자동 브리핑 | TypeScript · Actions · LLM |
-| [sauna-science-hub](https://github.com/MoriochoRadio/sauna-science-hub) | 헬스케어 | PubMed 논문 90편 자동 수집 + 한글 번역 아카이브 | Python · PubMed API |
-| [tarkov-korean-changes](https://github.com/MoriochoRadio/tarkov-korean-changes) | 데이터 | 게임 코드의 사일런트 변경을 매일 자동 수집·한글 해석, 반복 이벤트 안정성 자동 판정 | Python · Actions · LLM |
+| [sauna-science-hub](https://github.com/MoriochoRadio/sauna-science-hub) · [데모](https://moriochoradio.github.io/sauna-science-hub/) | 헬스케어 | PubMed 논문 90편 자동 수집 + 한글 번역 아카이브 | Python · PubMed API |
+| [tarkov-korean-changes](https://github.com/MoriochoRadio/tarkov-korean-changes) · [데모](https://moriochoradio.github.io/tarkov-korean-changes/) | 데이터 | 게임 코드의 사일런트 변경을 매일 자동 수집·한글 해석, 반복 이벤트 안정성 자동 판정 | Python · Actions · LLM |
 | [fundamental-regime-report](https://github.com/MoriochoRadio/fundamental-regime-report) | 금융 | 기업 펀더멘털 + 시장 국면(regime) 인지형 통합 분석 리포트 | Python · Claude API |
-| [weather-fit](https://github.com/MoriochoRadio/weather-fit) | 웹앱 | 날씨 기반 남성 코디 추천 — 기온대별 75벌, 서버·API 키 없는 정적 PWA | TypeScript · PWA |
+| [weather-fit](https://github.com/MoriochoRadio/weather-fit) · [데모](https://moriochoradio.github.io/weather-fit/) | 웹앱 | 날씨 기반 남성 코디 추천 — 기온대별 75벌, 서버·API 키 없는 정적 PWA | TypeScript · PWA |
 | [mindlings](https://github.com/MoriochoRadio/mindlings) | 시뮬레이션 | NEAT 신경망 생명체를 관찰·간섭하는 신 시점 인공생명 샌드박스 | Godot 4 · GDScript |
 | [evolution-garden](https://github.com/MoriochoRadio/evolution-garden) · [데모](https://moriochoradio.github.io/evolution-garden/) | 시뮬레이션 | 137개 가중치 신경망이 돌연변이·자연선택만으로 종 분화하는 인공생명. 라이브러리 없이 단일 HTML | Vanilla JS · Canvas |
-| [web-study-notes](https://github.com/MoriochoRadio/web-study-notes) · [데모](https://moriochoradio.github.io/web-study-notes/) | 학습 | 프론트엔드 수업 실습 아카이브 + 진도 대시보드 | HTML · CSS · JS |
 
 ---
 
@@ -131,7 +130,8 @@
 [study-algorithms](https://github.com/MoriochoRadio/study-algorithms) (알고리즘 C++/C#) ·
 [study-java](https://github.com/MoriochoRadio/study-java) (Java 기초→GUI) ·
 [study-windows-programming](https://github.com/MoriochoRadio/study-windows-programming) (WinForms/WPF 34챕터) ·
-[web-study-notes](https://github.com/MoriochoRadio/web-study-notes) (취업아카데미 프론트/백엔드) ·
+[web-study-notes](https://github.com/MoriochoRadio/web-study-notes) (취업아카데미 프론트/백엔드 · [진도 대시보드](https://moriochoradio.github.io/web-study-notes/)) ·
+[Iot-Github](https://github.com/MoriochoRadio/Iot-Github) (Zynq 보드 IoT 실습) ·
 [study-web-basics](https://github.com/MoriochoRadio/study-web-basics) · [study-web-funsun](https://github.com/MoriochoRadio/study-web-funsun) (2020, 첫 웹)
 
 ---
@@ -145,7 +145,7 @@
 | **기반** | C · C++ · Java · C# · SQL |
 | **데이터** | Roboflow · 데이터셋 설계 및 라벨링 기준 수립 · 버전관리 |
 | **인프라** | GitHub Actions · GitHub Pages · Firebase · Git · Jupyter |
-| **LLM 활용** | Claude API · Gemini API · 에이전트 워크플로우 · 프롬프트 엔지니어링 |
+| **LLM 활용** | Claude API · Gemini API · GitHub Models · 에이전트 워크플로우 · 프롬프트 엔지니어링 |
 
 ---
 
