@@ -2,7 +2,7 @@
 
 🇰🇷 [한국어](README.md) · 🇬🇧 English
 
-Preparing to work as a **backend developer focused on medical IT and healthcare solutions**.
+Preparing to work as a **backend developer focused on medical IT and healthcare solutions**.<br>
 Dept. of Medical IT Engineering, Konyang University — expected graduation Feb 2027 (GPA 4.30 / 4.5) · currently in a full-stack developer bootcamp (since Jun 2026)
 
 📧 **taeral04@gmail.com**
