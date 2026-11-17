@@ -5,7 +5,7 @@
 Preparing to work as a **backend developer focused on medical IT and healthcare solutions**.<br>
 Dept. of Medical IT Engineering, Konyang University — expected graduation Feb 2027 (GPA 4.30 / 4.5) · currently in a full-stack developer bootcamp (since Jun 2026)
 
-📧 **taeral04@gmail.com**
+📧 **kim.taekyoung.dev@gmail.com**
 
 I want to own the path along which data is created, processed and delivered — the part users never see.
 Across six team design projects (2024–2026, five semesters) I worked as engineer, PM and QA, learning to turn requirements into structure and verify it end to end.
